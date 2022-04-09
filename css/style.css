@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+
+*{
+    font-family: 'arial', 'cursive;';
+
+}
+
+body{
+    margin: 0% auto;
+}
+
+/* texte de page */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+header.header img{
+    width: 100px;
+}
+
+section.top-page{
+    background: url('https://img.ev.mu/images/articles/960x/903807.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+
+/* Page de bienvenue */
+
+.landing-page {
+    padding: 20px ;
+}
+
+
+
+
+.big-title{
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.scroll-down{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    bottom: 180px;
+
+}
+
+
+
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 250px;
+    margin-left: 30px;
+}
+
+
+
+
+
+nav.nav li a{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+}
+
+/* nav.nav ul li.btn{
+    color: #fff;
+} */
+
+
+/* service */
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.delivery-icon{
+    font-size: 50px;
+    color: rgb(0, 153, 255);
+}
+
+
+.service-details {
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* Dernières Videos */
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 153, 255);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+
+.bests-items {
+    margin: 50px;
+}
+
+
+.best-video {
+    background-color: aqua;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(../logosinge1.png); */
+    min-width: 600px;
+    height: 500px;    
+    flex: 1;
+}
+
+.video1 {
+    background-image: url(../menuadmin.png);
+
+
+}
+
+.video2 {
+    background-image: url(../menuped.png);
+
+
+}
+
+.video3 {
+    background-image: url(../shop-illegal.png);
+
+
+}
+
+.video4 {
+    background-image: url(../Gestion_Vehicule.png);
+
+
+}
+
+/* Video  */
+.video-details {
+    position: absolute;
+    width: 95.5%;
+    bottom: 0;
+    background-color: aliceblue;
+    padding: 5px 20px;
+
+}
+
+
+.video-name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 3px;
+}
+
+.video-date {
+    color: aqua;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+
+/* footer */
+
+footer.Copyright{
+    background-color: aqua;
+}
+
+
+/* contact */
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.delivery-icon{
+    font-size: 50px;
+    color: rgb(0, 153, 255);
+}
+
+
+.contact-details {
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+.contact-details a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
